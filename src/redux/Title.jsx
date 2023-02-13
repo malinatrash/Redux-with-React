@@ -7,6 +7,7 @@ const Title = (props) => {
     const text = useSelector(state => {
         const {inputReducer} = state
         return inputReducer.text
+
     })
     const dispatch = useDispatch()
 
