@@ -2,7 +2,7 @@ import React from 'react';
 import {inputText} from "./actions";
 import {useDispatch, useSelector} from "react-redux";
 
-const Title = (props) => {
+const Title = () => {
 
     const text = useSelector(state => {
         const {inputReducer} = state

@@ -5,10 +5,12 @@ const initialState = {
 }
 
 export const inputReducer = (state = initialState, action) => {
+    console.log('input text reducer > ', action)
     switch (action.type) {
         case INPUT_TEXT:
             return {
-                ...state
+                ...state,
+                text: action.text
             }
         default:
             return state

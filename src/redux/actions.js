@@ -15,7 +15,7 @@ export function decrementLikes() {
 export function inputText(text) {
     return {
         type: INPUT_TEXT,
-        data: text
+        text: text
     }
 }
 
